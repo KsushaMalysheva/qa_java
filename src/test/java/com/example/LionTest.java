@@ -42,7 +42,7 @@ public class LionTest {
         Lion lion = new Lion("Самец");
         boolean actual = true;
         boolean expected = lion.doesHaveMane();
-        assertEquals(expected, actual);
+        assertTrue(String.valueOf(expected), actual);
 
     }
 
